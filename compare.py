@@ -76,7 +76,7 @@ def main():
 
     json_files = get_json_files()
 
-    if args.check_duplicates:
+    if args.duplicates:
         for json_file in json_files:
             file_path = os.path.join("./jsons", json_file)
             find_duplicates(file_path)

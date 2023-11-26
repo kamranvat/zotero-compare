@@ -3,8 +3,7 @@ Simple script that compares two zotero folders (exported as .json) and tells you
 
 ## What it does
 The script can either be used to check for common titles between two exported Zotero folders, or check for duplicates within a single one. 
-Either way, it will print the respective number of titles as well as the titles themselves into the command line.
-
+Either way, it will print the respective number of titles as well as the titles themselves to the console.
 ## How to use
 ### Get folders:
 - Open Zotero and right-click a folder of your choice

@@ -1,0 +1,5 @@
+# Ignore everything in the "jsons" folder
+jsons/*
+
+# But include the "jsons" folder itself
+!jsons/.gitkeep

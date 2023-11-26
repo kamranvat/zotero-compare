@@ -8,14 +8,14 @@ Either way, it will print the respective number of titles as well as the titles 
 ## How to use
 ### Get folders:
 - Open Zotero and right-click a folder of your choice
-- Click "Export Collection...", make sure the format is set to "CSL JSON"
-- Save the exported file into the ./jsons directory of this repository
+- Click ```Export Collection...```, make sure the format is set to ```CSL JSON```
+- Save the exported file into the ```./jsons``` directory of this repository
 - Repeat for at least one more folder
   
 ### Check for common titles:
-- Run python compare.py from your console in the directory of this repo to compare two .json files
+- Run ```python compare.py``` from your console in the directory of this repo to compare two .json files
 - If you have more than two files in the folder, you will be prompted to choose which files to compare
 
 ### Check for duplicates within a file:
-- To check for duplicates within a file, run python compare.py -d
+- To check for duplicates within a file, run ```python compare.py -d```
 - All files will be checked and their respective number of duplicates, as well as the titles, will be printed.

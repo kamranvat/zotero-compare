@@ -68,9 +68,9 @@ def main():
     parser = argparse.ArgumentParser(description="Zotero Library Comparator")
     parser.add_argument(
         "-d",
-        "--check_duplicates",
+        "--duplicates",
         action="store_true",
-        help="Check for duplicates within JSON files",
+        help="Check for duplicates within each JSON file",
     )
     args = parser.parse_args()
 

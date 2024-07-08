@@ -6,6 +6,7 @@ The script can either be used to check for common titles between two exported Zo
 Either way, it will print the respective number of titles as well as the titles themselves to the console.
 ## How to use
 ### Get folders:
+- Clone this repository to your device
 - Open Zotero and right-click a folder of your choice
 - Click ```Export Collection...```, make sure the format is set to ```CSL JSON```
 - Save the exported file into the ```./jsons``` directory of this repository
